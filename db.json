@@ -1,14 +1,50 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "staffs": [{
+            "id": "SE150856",
+            "name": "Nguyễn Văn Bảo Khương",
+            "email": "khuongnvbse150856@fpt.edu.vn",
+            "phone": "0906844818",
+            "address": "ABC...XYZ",
+            "role": "gác cổng cực gắt"
+        },
+        {
+            "id": "SE150857",
+            "name": "Trần Thị Hồng Hạnh",
+            "email": "hanhTTHSE150857@fpt.edu.vn",
+            "phone": "0901234567",
+            "address": "DEF...UVW",
+            "role": "phụ trách quản lý nhân sự"
+        },
+        {
+            "id": "SE150858",
+            "name": "Lê Văn Hiếu",
+            "email": "hieulvSE150858@fpt.edu.vn",
+            "phone": "0912345678",
+            "address": "GHI...STU",
+            "role": "quản lý dự án"
+        },
+        {
+            "id": "SE150859",
+            "name": "Phạm Thị Thanh Huyền",
+            "email": "huyenPTTSE150859@fpt.edu.vn",
+            "phone": "0923456789",
+            "address": "JKL...PQR",
+            "role": "trưởng nhóm phát triển"
+        },
+        {
+            "id": "SE150860",
+            "name": "Đặng Văn Thanh",
+            "email": "thanhDVSE150860@fpt.edu.vn",
+            "phone": "0934567890",
+            "address": "MNO...BCD",
+            "role": "kế toán trưởng"
+        }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 },
+        { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
 }
